@@ -1,0 +1,583 @@
+.doctor-profile-detail-main-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 769px) {
+  .doctor-profile-detail-main-container {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+.doctor-profile-banner {
+  background-color: aliceblue;
+  border: 1px solid grey;
+  border-radius: 10px;
+  /* height: 55vh; */
+  width: 70vw;
+}
+
+@media screen and (max-width: 768px) {
+  .doctor-profile-banner {
+    width: 100%;
+    /* padding: 20px; */
+  }
+}
+
+.banner-image-and-text-details-section {
+  background: linear-gradient(to right, #5800ff, #2795f5);
+
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  /* padding: 20px; */
+
+  display: flex;
+  line-height: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-image-and-text-details-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.doctor-profile-image {
+  height: 170px;
+  width: 170px;
+  border-radius: 90px;
+  border: 7px solid white;
+  object-fit: cover;
+}
+
+.image-container {
+  padding: 20px;
+  position: relative;
+  display: inline;
+}
+
+.text-details-container {
+  line-height: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .text-details-container {
+    padding: 20px;
+    margin-top: 0px;
+  }
+}
+
+.doctor-name {
+  font-size: 35px;
+}
+
+.doctor-specialization {
+  font-size: 22px;
+}
+
+.rating-cont {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.star-icon {
+  color: gold;
+}
+
+.time-icon {
+  color: white;
+}
+
+.rating-and-experience-cont {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.category-and-next-available-time-cont {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.doctor-profile-details-category {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: background-color 0.3s ease;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.doctor-profile-details-category:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.doctor-available {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: background-color 0.3s ease;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.doctor-available:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.location-fee-and-available-cont-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .location-fee-and-available-cont-wrapper {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+  }
+}
+
+.location-fee-and-available-cont {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+.location-cont {
+  display: flex;
+  align-items: center;
+  color: black;
+  gap: 1rem;
+}
+
+.location-text-details {
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-icon {
+  color: #2795f5;
+}
+
+.location-title {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.location-name {
+  color: black;
+  font-size: 19px;
+  margin-top: 0px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.doctor-timings {
+  color: grey;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.about-doctor-and-appointment-booking-cont-wrapper {
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-doctor-and-appointment-booking-cont-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+.about-container {
+  background-color: aliceblue;
+  border: 1px solid grey;
+
+  /* border: 2px solid red; */
+  padding: 20px;
+  width: 43vw;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    width: 90%;
+  }
+}
+
+.about-container h2 {
+  color: #2795f5;
+}
+
+.about-container p {
+  color: grey;
+  width: 80%;
+}
+
+.booking-container {
+  background-color: aliceblue;
+  border: 1px solid grey;
+  /* border: 1px solid red; */
+  padding: 20px;
+  width: 20vw;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .booking-container {
+    width: 90%;
+  }
+}
+
+.booking-container h2 {
+  color: #2795f5;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.booking-btns-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.button {
+  height: 40px;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.schedule-consultation-btn {
+  background: linear-gradient(to right, #5800ff, #2795f5);
+  transition: transform 0.25s ease;
+  will-change: transform;
+}
+
+.schedule-consultation-btn:hover {
+  transform: scale(1.07);
+}
+
+.call-now-btn {
+  background-color: white;
+  border: 2px solid #2795f5;
+  color: #2795f5;
+  border-radius: 8px;
+}
+
+.call-now-btn:hover {
+  background-color: #2795f5;
+  color: white;
+}
+
+.send-msg-btn {
+  background-color: transparent;
+  color: grey;
+}
+
+.send-msg-btn:hover {
+  background-color: #34ed8a;
+  color: white;
+  border-radius: 8px;
+}
+
+.education-experience-and-language-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  /* border: 2px solid red; */
+  padding: 20px;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .education-experience-and-language-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.education-and-experience-cont {
+  background-color: aliceblue;
+  border: 1px solid grey;
+  width: 43vw;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .education-and-experience-cont {
+    width: 90%;
+  }
+}
+
+.graduation-icon {
+  color: #2795f5;
+}
+
+.icon-and-heading-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #2795f5;
+  gap: 1rem;
+}
+
+.education-cont {
+  color: black;
+  line-height: 0.9;
+}
+
+.education-cont h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.experience-cont {
+  color: black;
+  line-height: 0.9;
+}
+
+.experience-cont h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.languages-and-next-available-cont-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .languages-and-next-available-cont-wrapper {
+    width: 90%;
+  }
+}
+
+.language-spoken-cont {
+  background-color: aliceblue;
+  border: 1px solid grey;
+  width: 20vw;
+  padding: 20px;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+}
+
+@media screen and (max-width: 768px) {
+  .language-spoken-cont {
+    width: 100%;
+  }
+}
+
+.icon-and-language-heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* .icon-and-language-heading {
+  font-size: 20px;
+  font-weight: 500;
+} */
+
+.language-icon {
+  color: #2795f5;
+}
+
+.languages-cont {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0px;
+}
+
+.icon-and-language-heading h2 {
+  color: black;
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.language {
+  background-color: #2795f5;
+  color: white;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  margin-top: 0px;
+}
+
+.next-available-cont {
+  background-color: aliceblue;
+  border: 1px solid #34ed8a;
+  width: 20vw;
+  padding: 20px;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+  color: black;
+  line-height: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .next-available-cont {
+    width: 100%;
+  }
+}
+
+.next-available-cont h3 {
+  margin-top: 0px;
+  font-weight: 500;
+  color: #34ed8a;
+}
+
+.next-available-cont h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.next-available-cont p {
+  margin-top: 0px;
+}
+
+.awards-and-membership-cont-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .awards-and-membership-cont-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+.awards-cont {
+  background-color: aliceblue;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  width: 33%;
+}
+
+@media screen and (max-width: 768px) {
+  .awards-cont {
+    width: 90%;
+    line-height: 1;
+  }
+}
+
+.icon-and-award-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.award-icon {
+  color: #2795f5;
+}
+
+.icon-and-award-heading h2 {
+  color: #2795f5;
+  font-weight: 500;
+}
+
+.key-achievements {
+  color: black;
+  line-height: 2;
+}
+
+.key-achievements li {
+  color: grey;
+  font-size: 14px;
+}
+
+.awards {
+  color: black;
+  line-height: 0.7;
+}
+.awards li {
+  color: grey;
+  font-size: 14px;
+}
+
+.membership-container {
+  background-color: aliceblue;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  width: 33%;
+}
+
+@media screen and (max-width: 768px) {
+  .membership-container {
+    width: 90%;
+  }
+}
+
+.icon-and-membership-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.people-icon {
+  color: #2795f5;
+}
+
+.icon-and-membership-container h2 {
+  color: #2795f5;
+  font-weight: 500;
+}
+
+.taken-place-in-membership-cont {
+  display: flex;
+  gap: 1rem;
+}
+
+.taken-place-in-membership-cont p {
+  border: 2px solid #2795f5;
+  border-radius: 20px;
+  color: #2795f5;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

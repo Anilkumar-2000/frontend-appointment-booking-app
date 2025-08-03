@@ -1,0 +1,306 @@
+.Home-main-container {
+  height: 100vh;
+
+}
+
+.home-banner-section {
+  background-color: #2795F5;
+  width: 100%;
+  padding: 20px;
+}
+
+.title-and-contact-info-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-and-description {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-cont {
+  background-color: rgba(255, 255, 255, 0.3) ;
+  padding: 20px;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-and-desc-cont {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  
+}
+
+.contact-info-and-open-cont-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 768px){
+
+  .contact-info-and-open-cont-wrapper {
+    display: none;
+  }
+
+}
+
+
+.title-and-desc-cont h1 {
+  font-size: 25px;
+  margin-bottom:0px ;
+}
+
+.contact-info-cont  {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.open-container-cont  {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.booking-app-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1 ;
+}
+
+@media screen and (max-width: 768px) {
+   .booking-app-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    text-align: center;
+   }
+}
+
+
+
+.booking-app-cont h1 {
+  font-size: 35px;
+}
+
+.booking-app-cont p {
+  font-size: 17px;
+}
+
+.additional-fecilities-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+
+
+.additions-fecilities-cont {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media  screen and (max-width: 768px) {
+  .additions-fecilities-cont{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 9px;
+  }
+  
+}
+
+
+
+.para {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: background-color 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (max-width: 768px){
+  .para {
+    padding-left:20px ;
+    padding-right: 20px;
+  }
+}
+
+
+
+
+
+
+.para:hover {
+  
+  background-color: green;
+  cursor: pointer;
+}
+
+.find-your-doctor-cont-wrapper {
+  padding: 20px;
+  width: 100%;
+ 
+ 
+
+}
+
+.find-your-doctor-cont {
+  background-color: whitesmoke;
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+ 
+}
+
+.find-your-doctor-container {
+  display: flex;
+  align-items: center;
+}
+
+.filter-icon {
+  color: #2795F5;
+}
+
+.find-your-doctor-title {
+  color: black;
+}
+
+.filter-inputs-cont {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 768px){
+  .filter-inputs-cont {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.name-search-container {
+  background-color: aliceblue;
+  border: 1px solid grey;
+  height: 50px;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media  screen and (max-width: 768px) {
+  .name-search-container {
+    width: 100%;
+  }
+  
+}
+
+
+.search-icon {
+  color: black;
+}
+
+.input-element  {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: black; 
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+
+
+
+.doctors-tab-container {
+  gap: 2rem;
+  
+}
+
+@media screen and (max-width: 768px) {
+
+  .doctors-tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  
+}
+
+
+
+.specilities-heading {
+  color: black; 
+  margin-left: 10px;
+  font-size: 21px;
+}
+
+
+.doctor-tab-btn {
+  margin: 10px;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 15px;
+  color: black;
+  border: 1px solid grey;
+  padding-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
+  color:black;
+  transition: transform 0.3s ease ;
+  font-family :'Inter', 'Roboto', sans-serif;
+}
+
+
+
+.active-tab-btn {
+  background-color: #2795F5 !important ;
+  cursor: pointer;
+  color:white;
+}
+
+
+.doctor-tab-btn:hover {
+  background-color: aliceblue;
+  transform: translateY(-5px);
+  /* color: black; */
+  
+}
+
+
+
+.doctor-list-container-wrapper {
+  padding: 20px;
+}
+
+.doctors-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 3rem;
+}
